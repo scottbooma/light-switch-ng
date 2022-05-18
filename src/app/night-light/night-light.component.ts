@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-night-light',
   templateUrl: './night-light.component.html',
-  styleUrls: ['./night-light.component.css']
+  styleUrls: ['./night-light.component.css'],
 })
-export class NightLightComponent implements OnInit {
+export class NightLightComponent {
+  isOn = true;
 
-  constructor() { }
-
-  ngOnInit(): void {
+  switchLight() {
+    this.isOn = !this.isOn;
   }
-
 }

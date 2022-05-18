@@ -1,4 +1,4 @@
 <div class="night-light">
-  <app-light></app-light>
-  <app-switch></app-switch>
+  <app-light [isOn]="isOn"></app-light>
+  <app-switch (isOn)="switchLight()" [switched]="isOn"></app-switch>
 </div>

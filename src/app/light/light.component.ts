@@ -1,8 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-light',
   templateUrl: './light.component.html',
   styleUrls: ['./light.component.css'],
 })
-export class LightComponent {}
+export class LightComponent {
+  @Input() isOn!: boolean;
+}

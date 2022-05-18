@@ -40,4 +40,17 @@ body {
 }
 
 .on {
+  background-color: white;
+}
+
+.off {
+  background-color: black;
+}
+
+.switch:hover {
+  cursor: pointer;
+}
+
+.switch.off:hover {
+  background-color: white;
 }
