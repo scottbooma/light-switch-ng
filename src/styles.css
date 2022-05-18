@@ -53,3 +53,7 @@ body {
 .switch.off:hover {
   background-color: white;
 }
+
+.off:hover {
+  cursor: none;
+}
