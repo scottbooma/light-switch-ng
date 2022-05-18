@@ -1,6 +1,6 @@
 # Light Switch (Angular Edition)
 
-Find the deployed site [here](https://inspiring-meerkat-6ab0a8.netlify.app/)
+Find the deployed site [HERE](https://inspiring-meerkat-6ab0a8.netlify.app/)
 
 Create an Angular app that has the following:
 
